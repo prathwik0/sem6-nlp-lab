@@ -1,0 +1,12 @@
+c. Collecting dataset websites from a book paragraph using Spacy
+Text='''
+Look for data to help you address the question. Governments are good sources because data from public research is often freely available. Good places to start include http://www.data.gov/, and http://www.science.gov/, and in the United Kingdom, http://data.gov.uk/. Two of my favorite data sets are the General Social Survey at http://www3.norc.org/gss+website/, and the European Social Survey at http://www.europeansocialsurvey.org/. The current representation will be formed by a well-organized collection of agents, previously structured in a dynamic, control-based manner. This collection of agents will be built based on the analysis of activations of conception and structuring agents that intercommunicate. Having first deployed an intent, a global interpretation of the system’s situation is formed by means of questionings, qualifying aspects of things, memorized cases, development of numerous cognitive aspects by activating agents that operate proper scaling up, all of which will allow for the efficient emergence of the representation. The system’s interpretation of this collection of agents will take the form of http://www.systemsurvey.org/ a network of dynamic knowledge of apprehensions, operating through questions in a steadily activated loop. This knowledge network will be activated by the system and further developed based on inter-agent relations that will result in significant aggregations of knowledge, structures of dynamic knowledge with appropriate (domain.com) characteristics.
+'''
+
+
+d. Extract all money transaction from below sentence along with currency using Spacy.
+          
+Transactions = "Aron gave two $ to Shawn, Smith gave 500 € to Johan"
+Output should be,
+  	two $
+ 	500 €
